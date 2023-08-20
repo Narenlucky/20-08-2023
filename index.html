@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Button Drum Kit</title>
+</head>
+<body>
+    <h1>Button Drum Kit</h1>
+    
+    <div class="drum-kit">
+        <button data-key="65" class="drum-pad" >A</button>
+        <button data-key="83" class="drum-pad">S</button>
+        <button data-key="68" class="drum-pad">D</button>
+        <button data-key="70" class="drum-pad">F</button>
+        <button data-key="71" class="drum-pad">G</button>
+        <button data-key="72" class="drum-pad">H</button>
+        <button data-key="74" class="drum-pad">J</button>
+        <button data-key="75" class="drum-pad">K</button>
+        <button data-key="76" class="drum-pad">L</button>
+    </div>
+
+    <audio data-key="65" src="https://assets.mixkit.co/active_storage/sfx/479/479.mp3"></audio>
+    <audio data-key="83" src="https://assets.mixkit.co/active_storage/sfx/479/479.mp3"></audio>
+    <audio data-key="68" src="https://assets.mixkit.co/active_storage/sfx/479/479.mp3"></audio>
+    <!-- Add more audio elements for other drum sounds -->
+
+    <script src="script.js"></script>
+</body>
+</html>
